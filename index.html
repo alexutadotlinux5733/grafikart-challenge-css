@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="screen-container">
+        <div class="main-container">
+            <header>
+                <div class="main-title">Modifier mon profil</div>
+            </header>
+            <main class="inputs-container">
+                <div class="input-container">
+                    <div>
+                        <div>Nom</div>
+                        <input type="text" name="nom" class="input">
+                    </div>
+                    <div>
+                        <div>Email</div>
+                        <input type="email" name="email" id="email" placeholder="monemail@demo.fr" class="input">
+                    </div>
+                    <div>
+                        <div>Adresse</div>
+                        <input type="text" class="input">
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <div>
+                        <div>Prénom</div>
+                        <input type="text" name="nom" class="input">
+                    </div>
+
+                    <div>
+                        <div>Téléphone (mobile)</div>
+                        <input type="number" name="telephone" id="email" class="input">
+                    </div>
+
+                    <div>
+                        <div>Ville</div>
+                        <input type="text" class="input">
+                    </div>
+                </div>
+                <div class="input-container">
+
+                    <div>
+                        <div>Bio</div>
+                        <textarea name="bio" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    
+                    <div>
+                        <div>Code postal</div>
+                        <input type="number" name="postal-code" class="input">
+                    </div>
+                </div>
+            </main>
+
+            <div class="checkboxes-container">
+                <div>
+                    <input type="checkbox" id="subscribe-newsletter" name="subscribe-newsletter">
+                    <label for="subscribe-newsletter">Je souhaite recevoir la newsletter</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="subscribe-newsletter-sponsor" name="subscribe-newsletter-sponsor">
+                    <label for="subscribe-newsletter-sponsor">Je souhaite recevoir la newsletter des partenaires</label>
+                </div>
+            </div>
+
+            <button type="submit" class="button">
+                Enregistrer mes modifications
+            </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
