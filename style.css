@@ -27,6 +27,14 @@ body {
     font-size: 24px;
     line-height: 28px;
     color: #374151;
+    margin-left: 44px;
+    margin-top: 33px;
+    margin-bottom: 70px;
+}
+
+.line {
+    border: solid 1px #D7DBDF;
+    margin-right: 46px;
 }
 
 .description-input {
