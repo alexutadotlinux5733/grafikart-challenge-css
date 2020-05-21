@@ -1,6 +1,6 @@
 body {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     font-family: 'Roboto', sans-serif;
 }
@@ -29,7 +29,7 @@ body {
     color: #374151;
     margin-left: 44px;
     margin-top: 33px;
-    margin-bottom: 70px;
+    margin-bottom: 31px;
 }
 
 .line {
@@ -39,15 +39,18 @@ body {
 
 .description-input {
     margin-bottom: 8px;
+    font-weight: normal;
+    color: #374151;
 }
-coucou toi !
+
 .input {
     border: 1px solid #D2D6DB;
     box-sizing: border-box;
     border-radius: 5px;
     width: 297px;
     height: 49px;
-    margin-bottom: 52px;
+    margin-bottom: 25px;
+    padding-left: 15px;
 }
 
 .inputs-container {
@@ -64,8 +67,65 @@ coucou toi !
     margin-right: 46px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .textarea-bio {
     resize: none;
     height: 150px;
     width: 300px;
+    border: 1px solid #D2D6DB;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#postal-code {
+    margin-top: 24px;
+}
+
+.checkboxes-container {
+	display: flex;
+	margin-left: 44px;
+}
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+}
+
+input[type=checkbox] {
+    border-radius: 6px;
+    border: 1px solid #D2D6DB;
+    box-sizing: border-box;
+    background: #fff;
+    height: 16px;
+    width: 16px;
+    margin-bottom: -2px;
+}
+
+.checkboxes-container > div:nth-child(2) {
+    padding-left: 23px;
+}
+
+.submit-button {
+    background-color: #5850EB;
+    border: 1px solid #D2D6DB;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 277px;
+    height: 49px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 67.76%;
+    right: 19.24%;
+    top: 80.89%;
+    bottom: 27%;
 }
